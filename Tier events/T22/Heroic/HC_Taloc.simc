@@ -24,12 +24,12 @@ actions=auto_attack,damage=17000,attack_speed=4
 # Crudgel stuns
 
 raid_events+=/stun,affected_role=attack,first=36,cooldown=60,last_pct=61,duration=2,players_only=1,force_stop=0
-raid_events+=/stun,affected_role=attack,first=295,cooldown=60,duration=2,players_only=1,force_stop=0
+raid_events+=/stun,affected_role=attack,first_pct=56,cooldown=60,duration=2,players_only=1,force_stop=0
 
 # Retrieve Crudgel stuns
 
 raid_events+=/stun,affected_role=attack,first=60,cooldown=60,duration=1,players_only=1,cooldown=1000000,force_stop=0
-raid_events+=/stun,affected_role=attack,first_pct=57,cooldown=60,duration=1,players_only=1
+raid_events+=/stun,affected_role=attack,first_pct=54,cooldown=60,duration=1,players_only=1
 
 # Plasma discharge
 
