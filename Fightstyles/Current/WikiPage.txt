@@ -12,7 +12,7 @@ Acceptable values are:
      ```
      raid_events+=/movement,players_only=1,first=10,distance=25,duration=4
      ```
-  1. _HecticAddCleave_ will set up a fight with regular add spawns and frequent movement. Similar to the Tier15 encounter Horridon (but without the vulnerability on the boss). The events scale with `max_time`, for a 450second fight it is the same as:
+  1. _HecticAddCleave_ will set up a fight with regular add spawns and frequent movement. Similar to the Tier15 encounter Horridon (but without the vulnerability on the boss). The events scale with `max_time`, with 450 it is the same as:
      ```
      raid_events+=/adds,count=5,first=22,cooldown=33,duration=22,last=337
      raid_events+=/movement,players_only=1,first=22,cooldown=33,distance=20,last=337
@@ -29,14 +29,14 @@ Acceptable values are:
      ```
      raid_events+=/adds,count=1,first=22,cooldown=33,duration=22,last=405
      ```
-  1. _Beastlord_ will set up a fight similair to the Tier17 encounter Beastlord Darmac. The events scale with `max_time`, for a 450second fight it is the same as:
+  1. _Beastlord_ will set up a fight similair to the Tier17 encounter Beastlord Darmac. The events scale with `max_time`, with 450 it is the same as:
      ```
      raid_events+=/adds,name=Pack_Beast,count=6,first=15,duration=10,cooldown=30,angle_start=0,angle_end=360,distance=3
      raid_events+=/adds,name=Heavy_Spear,count=2,first=15,duration=15,cooldown=20,spawn_x=-15,spawn_y=0,distance=15
      raid_events+=/movement,first=13,distance=5,cooldown=20,players_only=1,player_chance=0.1
      raid_events+=/adds,name=Beast,count=1,first=10,duration_stddev=5,duration=67,cooldown=112,cooldown_stddev=0,last=292
      ```
-  1. _Ultraxion_ will set up a fight similair to the Tier17 encounter Beastlord Darmac. The events scale with `max_time`, for a 450second fight it is the same as:
+  1. _Ultraxion_ will set up a fight similair to the Tier17 encounter Beastlord Darmac. The events scale with `max_time`, with 450 it is the same as:
      ```
      raid_event=/flying,first=0,duration=500,cooldown=500
      raid_event+=/position_switch,first=0,duration=500,cooldown=500
